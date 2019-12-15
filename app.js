@@ -9,7 +9,7 @@ function onReady() {
 
 
     toDos.forEach(function(toDo){
-      const NEW_LI document.createElement('li');
+      const NEW_LI = document.createElement('li');
       const CHECKBOX = document.createElement('input');
       CHECKBOX.type = "checkbox";
 
